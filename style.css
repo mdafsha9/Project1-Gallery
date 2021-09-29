@@ -72,11 +72,29 @@ nav{
   text-align:center;
 }
 #camera{
-  font-size:40px;
+  font-size:70px;
   margin-bottom:10px;
 }
 .h-text h1{
   font-family:sans-serif;
   font-size:3em;
   line-height:1.5em;
+}
+.h-text input{
+  width:60%;
+  padding:20px;
+  border:none;
+  outline:none;
+  font-size:20px;
+  border-radius:8px;
+}
+.h-text button{
+  width:15%;
+  padding:20px;
+  background:#a83271;
+  color:white;
+  border:none;
+  outline:none;
+  border-radius:8px;
+  font-size:20px;
 }
