@@ -143,3 +143,17 @@ li.active{
   height:100%;
   border-radius:8px;
 }
+.member{
+  width:100%;
+  padding:20px 100px;
+  font-family:sans-serif;
+}
+.member-info{
+  text-align:center;
+}
+.member-info h1{
+  font-size:2.5em;
+}
+.member-info h1 span{
+  color:#a83271;
+}
