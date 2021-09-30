@@ -118,3 +118,8 @@ nav{
   transition:0.5s ease;
   text-align:center;
 }
+.portfolio-menu ul li:hover{
+  color:white;
+  background:#a83271;
+  border-radius:8px;
+}
