@@ -123,3 +123,8 @@ nav{
   background:#a83271;
   border-radius:8px;
 }
+li.active{
+  color:white;
+  background:#a83271;
+  border-radius:8px;
+}
