@@ -128,3 +128,18 @@ li.active{
   background:#a83271;
   border-radius:8px;
 }
+.portfolio-item{
+  width:100%;
+}
+.portfolio-item .item{
+  width:360px;
+  height:360px;
+  float:left;
+  margin-bottom:20px;
+  margin-right:20px;
+}
+.portfolio-item .item img{
+  width:100%;
+  height:100%;
+  border-radius:8px;
+}
