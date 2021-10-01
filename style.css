@@ -157,3 +157,20 @@ li.active{
 .member-info h1 span{
   color:#a83271;
 }
+.member-card{
+  text-align:center;
+  padding-top:50px;
+  width:50%;
+  margin:auto;
+}
+.circle{
+  border-radius:50%;
+}
+.member-card p{
+  margin:20px 0;
+  line-height:2em;
+}
+.member-card h2{
+  margin:20px 0;
+  
+  }
