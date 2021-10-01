@@ -173,3 +173,18 @@ li.active{
 .member-card h2{
   margin:20px 0;
   }
+.m-images{
+  width:100%;
+  display:flex;
+  margin:20px 0;
+  overflow:hidden;
+}
+.m-images img{
+  width:200px;
+  height:200px;
+  cursor:pointer;
+  transition:0.4s ease-in-out;
+}
+.m-images img:hover{
+  transform:scale(1.5);
+}
