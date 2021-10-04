@@ -209,3 +209,32 @@ footer{
 .nText{
   text-align:right;
 }
+.newsletter h2{
+  font-size:2em;
+  font-family:sans-serif;
+}
+.newsletter p{
+  font-size:20px;
+  margin-top:10px;
+}
+.newsletter label{
+  position:relative;
+}
+.newsletter input{
+  padding:20px;
+  width:70%;
+  border-radius:8px;
+  border:none;
+  outline:none;
+  font-family:sans-serif;
+}
+.newsletter button{
+  position:absolute;
+  right:0;
+  padding:20px;
+  width:30%;
+  background:#a83271;
+  border:none;
+  outline:none;
+  border-radius:0 8px 8px 0;
+}
