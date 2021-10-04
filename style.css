@@ -188,3 +188,9 @@ li.active{
 .m-images img:hover{
   transform:scale(1.5);
 }
+footer{
+  width:100%;
+  height:100vh;
+  background:#262626;
+  padding:50px 100px;
+}
