@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="30">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
@@ -30,7 +31,7 @@
       </nav>
       <section class="h-text">
         <i class="fa fa-camera" id="camera"></i>
-        <h1>Capturing the moments of today that will wow your hearts tomorrow.</h1>
+        <h1 data-aos="fade-up">Capturing the moments of today that will wow your hearts tomorrow.</h1>
         <input type="text" placeholder="Search here....">
         <button><i class="fa fa-search"></i></button>
       </section>
@@ -45,42 +46,42 @@
         </ul>
       </div>
       <div class="portfolio-item">
-        <div class="item nature">
+        <div class="item nature" data-aos="flip-left" data-aos-offset="100" data-aos-delay="100">
           <img src="assets/n1.jpeg" width="100px" height="100px">
         </div>
-        <div class="item fashion">
+        <div class="item fashion" data-aos="flip-left" data-aos-offset="100" data-aos-delay="200">
           <img src="assets/f1.jpg" width="100px" height="100px">
         </div>
-        <div class="item wedding">
+        <div class="item wedding" data-aos="flip-left" data-aos-offset="100" data-aos-delay="300">
           <img src="assets/w1.jpg" width="100px" height="100px">
         </div>
-        <div class="item nature">
+        <div class="item nature" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="100">
           <img src="assets/n2.jpg" width="100px" height="100px">
         </div>
-        <div class="item fashion">
+        <div class="item fashion" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="200">
           <img src="assets/f2.jpg" width="100px" height="100px">
         </div>
-        <div class="item wedding">
+        <div class="item wedding" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="300">
           <img src="assets/w2.jpg" width="100px" height="100px">
         </div>
-        <div class="item nature">
+        <div class="item nature" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
           <img src="assets/n3.jfif" width="100px" height="100px">
         </div>
-        <div class="item fashion">
+        <div class="item fashion" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="200">
           <img src="assets/f3.jfif" width="100px" height="100px">
         </div>
-        <div class="item wedding">
+        <div class="item wedding" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="300">
           <img src="assets/w3.jpg" width="100px" height="100px">
         </div>
       </div>
     </section>
 
     <section class="member">
-      <div class="member-info">
+      <div class="member-info" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
         <h1>Our <span>Information</span></h1>
         <p>What our member says</p>
       </div>
-      <div class="member-card">
+      <div class="member-card" data-aos="zoom-in-down" data-aos-offset="100" data-aos-delay="100">
         <img src="assets/main.jfif" class="circle">
         <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         <h2>Maria Sharapova</h2>
@@ -144,6 +145,10 @@
         </div>
 
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+  </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script>
@@ -162,6 +167,7 @@
         });
         return false;
       });
+
     </script>
   </body>
 </html>

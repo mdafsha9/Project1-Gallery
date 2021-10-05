@@ -256,6 +256,9 @@ footer{
   cursor:pointer;
 }
 .f-contact p:hover{
+  color:white;
+}
+.f-contact i{
   background:white;
   color:black;
   padding:10px;
@@ -263,4 +266,9 @@ footer{
   margin:20px 5px;
   border-radius:50%;
   transition:0.4s ease;
+}
+.f-contact i:hover{
+  background:transparent;
+  color:white;
+  border:1px solid white;
 }
